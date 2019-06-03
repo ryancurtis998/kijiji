@@ -45,7 +45,7 @@ You will also need to install Django. Follow the instructions [here](https://www
 
 This app doesn't seem to have any bugs for now. If you happen to come across one, I will be happy to take a look at it. Contact Me on:
 
-- [Facebook](https://web.facebook.com/Ryan Owino/)
+- [Facebook](https://web.facebook.com/RyanOwino/)
 - [Email](ryancurtis998@yahoo.com)
 
 ### License 
