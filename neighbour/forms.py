@@ -19,4 +19,4 @@ class UploadForm(forms.ModelForm):
 class BizForm(forms.ModelForm):
     class Meta:
         model = Business
-fields =('business_name','user','neighborhood_id','business_email')
+        fields =('business_name','user','neighborhood_id','business_email')

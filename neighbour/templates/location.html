@@ -7,7 +7,7 @@
     <center>
       <h3>Welcome <strong>{{user}}</strong></h3>
       {% if user.is_authenticated %}
-      <h6>Sign in to your hood</h6>
+      <h6>Sign in to your Kijiji</h6>
 
       {% for x in hood %}
 
@@ -19,14 +19,14 @@
 
       {% endfor %}
       <br>
-      <h6>Not Yet registered to a Hood? signup here</h6>
+      <h6>Not Yet registered to a kijiji? signup here</h6>
       <div class="hd">
         <a href="{% url 'hood'%}">Register Hood</a>
       </div>
       {% else %}
 
       <div class="see">
-        <p>Please <a href="/register">SIGNUP </a> to enjoy HOODMATE</p>
+        <p>Please <a href="/register">SIGNUP </a> to enjoy KIJIJI</p>
         <br>
         <p>Already have an account <a href="/account/login">LOGIN</a> here</p>
       </div>

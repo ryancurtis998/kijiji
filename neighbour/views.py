@@ -14,6 +14,11 @@ def homm(request,id):
 
     return render(request,'home.html', locals())
 
+def kijiji(request):
+    return render(request, 'home.html')
+
+def hood(request):
+    return render(request, 'home.html')
 def register(request):
     if request.method == 'POST':
         form = UserCreationForm(request.POST)
